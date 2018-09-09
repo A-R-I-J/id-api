@@ -1,6 +1,6 @@
-FROM python:2-alpine
+FROM python:2.7.15-alpine
 
-ENV ID_VERSION=v3.1.2
+ENV ID_VERSION=master
 LABEL VERSION=$ID_VERSION
 
 RUN apk add --no-cache git build-base postgresql-dev
